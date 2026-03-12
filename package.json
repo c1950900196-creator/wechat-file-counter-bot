@@ -1,0 +1,19 @@
+{
+  "name": "wechat-file-counter-bot",
+  "version": "1.0.0",
+  "description": "微信群文件统计机器人 - 自动统计群内文件数量并提醒",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "node-schedule": "^2.1.1",
+    "wechaty": "^1.20.2",
+    "wechaty-puppet-wechat": "^1.18.4",
+    "wechaty-puppet-wechat4u": "^1.14.14"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
